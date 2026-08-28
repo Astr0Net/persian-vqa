@@ -1,0 +1,135 @@
+# =========================
+# Python / FastAPI
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+backend/venv/
+
+# Python tooling and test/coverage output
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+pytestdebug.log
+
+# Packaging/build output
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+MANIFEST
+
+# =========================
+# FastAPI / application secrets
+# =========================
+.env
+.env.*
+!.env.example
+*.env.local
+*.env.production
+*.key
+*.pem
+*.crt
+
+# Local databases and runtime files
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+uploads/
+media/
+tmp/
+temp/
+
+# =========================
+# React / Node
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+frontend/build/
+frontend/dist/
+frontend/.next/
+frontend/.nuxt/
+frontend/.vite/
+frontend/.cache/
+
+# Package manager caches
+.npm/
+.yarn/
+.pnp/
+.pnp.*
+.parcel-cache/
+.turbo/
+
+# =========================
+# Jupyter / Google Colab
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Keep project notebooks tracked; ignore only generated checkpoints.
+
+# =========================
+# AI model/cache files
+# =========================
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+models/
+checkpoints/
+hf_cache/
+.cache/
+
+# =========================
+# Editors and OS files
+# =========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+.idea/
+*.swp
+*.swo
+*~
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Windows temporary files
+*.tmp
+*.temp
+*.bak
+
+# =========================
+# Project-local generated files
+# =========================
+*.local
+*.secret
+debug/
+reports/

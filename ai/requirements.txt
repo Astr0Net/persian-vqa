@@ -1,0 +1,7 @@
+transformers>=4.43
+accelerate
+torch
+fastapi
+uvicorn
+pyngrok
+nest-asyncio
